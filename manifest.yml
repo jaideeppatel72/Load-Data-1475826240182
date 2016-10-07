@@ -1,8 +1,6 @@
 applications:
-- path: target/JavaHelloWorldApp.war
-  memory: 512M
-  instances: 1
+- disk_quota: 1024M
+  path: data_load_sample.war
   domain: mybluemix.net
-  name: Load Data
-  host: load-data
-  disk_quota: 1024M
+  instances: 1
+  memory: 512M
